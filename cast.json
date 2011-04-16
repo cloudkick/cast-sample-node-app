@@ -1,0 +1,10 @@
+{
+  "name": "Sample NodeJS application",
+  "description": "A sample NodeJS application controlled by Cast",
+  "type": "nodejs",
+  "data_files": [ "data/visitor_log.dat" ],
+  "template_files": [ "server.js" ],
+  "template_variables": { "welcome_msg": "Hello Cast!",
+                          "server_port": 8000,
+                          "data_file": "data/visitor_log.dat"}
+}
